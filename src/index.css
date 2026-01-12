@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --vapor: #E8F4F8;
+  --liquid: #B8D4E3;
+  --solid: #2C3E50;
+  --accent: #3498DB;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--vapor) 0%, var(--liquid) 50%, var(--solid) 100%);
+  background-attachment: fixed;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
