@@ -150,6 +150,7 @@ export default function Landing() {
       <footer className="px-6 py-8 text-center text-solid/50 text-sm">
         <p>Part of the Machus AI ecosystem</p>
         <a href="https://machus.ai" className="text-accent hover:underline">machus.ai</a>
+        <p className="mt-2 text-xs opacity-50">test-deploy-check-2025-01-15</p>
       </footer>
     </div>
   )
